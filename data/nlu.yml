@@ -1,0 +1,144 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - chào em
+    - hello em
+    - hi em
+    - em ơi, cho anh hỏi
+    - bot ơi
+    - cho mình hỏi chút
+    - hello bot
+    - hi
+    - xin chào
+    - bot ơi cho mình hỏi
+    - chào bot nha
+    - bot ơi bot
+    - bot ơi cho mình hỏi chút được không
+    - cho mình hỏi chút với
+    - cho mình hỏi chút được không
+    - xin chào bot
+    - hi bot
+    - xin chào nha
+
+- intent: goodbye
+  examples: |
+    - tạm biệt 
+    - hẹn gặp lại
+    - ngủ ngon
+    - chúc ngủ ngon
+    - ngày mới tốt lành
+    - hẹn gặp sau 
+    - bye
+    - bye bye
+    - tạm biệt bot nha
+    - mình sẽ quay lại sau
+    - bai bai
+    - goodbye
+    - ngủ ngon nhá
+    - tạm biệt bot
+    - gặp sau nha
+    - bye bot
+    - bai bot
+    - hẹn gặp vào ngày mai nhá
+
+- intent: ask_ability
+  examples: |
+    - em có thể làm những gì nhỉ
+    - em có chức năng gì?
+    - em giúp gì được anh không?
+    - em có thể giúp gì cho anh?
+    - em biết làm gì?
+    - em hỗ trợ anh như thế nào?
+    - cho anh xem các chức năng của em
+    - bot có thể làm gì thế?
+    - cho mình biết bot có thể làm gì được không?
+    - không biết bot làm được gì nhỉ?
+    - chức năng của bot là gì thế ta?
+    - bot này dùng để làm gì nhỉ?
+    - bot này biết làm gì ta?
+    - có thể cho mình biết chức năng của bot được không?
+    - cho mình xem chức năng của bot đi
+    - khả năng của bot là gì?
+    - bot hỗ trợ gì thế?
+    - bot có thể giúp gì cho mình?
+
+- intent: thankyou
+  examples: |
+    - cảm ơn em nhá
+    - thanks em nha
+    - cảm ơn nha
+    - good job
+    - thank you
+    - cảm ơn bot nha
+    - thanks bot
+    - cảm ơn
+    - thank you so much
+    - great! Thanks
+    - cảm ơn bot nhiều nhá
+    - cảm ơn rất nhiều
+    - cảm ơn vì sự hỗ trợ của bot
+    - cảm ơn vì sự hữu ích
+    - thank bot nhiều nha
+    - thanh kìu
+    - cảm ơn nhiều nha
+    - thankyou
+
+- intent: praise
+  examples: |
+    - hay quá
+    - bot giỏi quá
+    - great
+    - awesome
+    - bot làm tốt lắm
+    - ui giỏi thế
+    - bot thông minh
+    - tuyệt quá
+    - sao bot giỏi vậy
+    - bot thông mình quá ta
+    - bot giỏi lắm đó
+    - hay ghê 
+    - hay ghê á bot
+    - bot tuyệt lắm
+    - bot thật tuyệt
+    - làm tốt lắm
+    - excellent
+    - hay thế ta
+    - cần phát huy nha bot
+    - wow giỏi ghê
+    - wow bot giỏi quá
+    - thật tuyệt
+    - sao bot thông minh thế
+
+- intent: decry
+  examples: |
+    - quá tệ
+    - ngu ngốc
+    - chả biết gì cả
+    - ngu thật
+    - dở ghê
+    - có thế mà cũng không biết
+    - kém cỏi
+    - bot còn hơi kém nha
+    - bot cần cải thiện thêm đó
+    - vẫn còn thiếu tính năng kìa
+    - hơi tệ đó bot
+    - hãy nâng cấp thêm đi 
+    - hãy cải thiện thêm đi
+    - tệ quá
+    - cần luyện tập thêm đi bot
+    - hãy luyện tập để thông minh hơn
+    - bot còn non quá
+    - đơn giản vậy mà cũng sai
+    - đơn giản thế mà cũng không biết
+    - về học thêm đi 
+    - còn non và xanh lắm 
+    - bot gà thế
+    - bot sai quá sai
+    - tệ
+    - đánh giá còn hơi kém nha bot
+    - bot này cần cải thiện nhiều hơn
+    - tính năng còn tệ quá
+    - tính năng còn kém quá
+    - tính năng còn hơi ít nha
